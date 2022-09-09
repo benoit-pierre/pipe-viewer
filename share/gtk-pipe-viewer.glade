@@ -274,7 +274,6 @@ Author: Trizen https://github.com/trizen
     <property name="icon-name">video-display</property>
   </object>
   <object class="GtkWindow" id="__MAIN__">
-    <property name="visible">True</property>
     <property name="can-focus">False</property>
     <signal name="delete-event" handler="on_mainw_destroy" swapped="no"/>
     <signal name="window-state-event" handler="main_window_state_events" swapped="no"/>
